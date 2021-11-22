@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>richardtiwa.design</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="asset/favicon.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 200){
+                $(".container").css({"opacity" : "0", "filter" : "blur(5px)", "transform" : "scale3d(1.02, 1.02, 1.02) translate3d(0px, -50px, 0px)"})
+            }
+                else {
+                $(".container").css({"opacity" : "1",  "filter" : "blur(0px)", "transform" : "scale3d(1, 1, 1) translate3d(0px, 0px, 0px)"})
+            }
+                if ($(this).scrollTop() > 300){
+                $(".gallery").css({"opacity" : "1", "filter" : "blur(0px)" , "transform" : "scale3d(1, 1, 1) translate3d(0px, 80px, 0px)"})
+            }
+                else {
+                $(".gallery").css({"opacity" : "0.5", "filter" : "blur(50px)" , "transform" : "scale3d(0.9, 0.9, 0.9) translate3d(0px, 150px, 0px)"})
+            }
+        })
+        })
+    </script>
+  </head>
+  <body>
+    <div class="container">
+        <p>Richard designs interfaces: the metaphors that humanize them, 
+            and the systems that scale them. His work ranges from 
+            creating visual identity for Hoops Tournament to prototyping software solutions, like ShootShotBot. He studied 
+            Computer Science at the University of Ibadan. He started as a freelance Visual Designer before working at TQ and Geng. Most recently 
+            he contributed to Curious Pages, an app to build kickass websites from your phone. 
+            <a href="mailto: richardadaramola@gmail.com" target="_blank">Email</a> / <a href="https://twitter.com/richard_tiwa" target="_blank">Twitter</a> / <a href="https://www.instagram.com/richard_tiwa/" target="_blank">Instagram</a> </p>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-layout">
+            <div class="gallery-cards" id="myImg-1">
+                <img src="assets/Walker BB Tournament2.png" alt="sometimes"/>
+            </div>
+
+            <div class="gallery-cards" id="myImg-2">
+                <img src="assets/DuMeta Flyer+.png" alt="Du'Meta"/>
+            </div>
+
+            <div class="gallery-cards" id="myImg-3">
+                <img src="assets/Curious-pages-artwork+.png" alt="Alobosa"/>
+            </div>
+
+            <div class="gallery-cards" id="alobosa">
+                <img src="assets/Alobosa Logo 3.png" alt="Curious Pages Logo"/>
+            </div>
+
+            <div class="gallery-cards" id="myImg-5">
+                <img src="assets/Geng T-shirt Front+ preview.png" alt="Curious Pages Logo"/>
+            </div>
+
+            <div class="gallery-cards" id="cd-sleeve">
+                <img src="assets/Homecoming Sleeve +.jpg" alt="Curious Pages Logo"/>
+            </div>
+
+            <div class="gallery-cards" id="pumbaa">
+                <img src="assets/Movie Night preview.png" alt="Curious Pages Logo"/>
+            </div>
+
+            <div class="gallery-cards" id="cd-sleeve2">
+                <img src="assets/Master class.png" alt="Curious Pages Logo" 
+                data-original="assets/Homecoming Sleeve +.jpg"/>
+            </div>
+            
+             <div class="gallery-cards" id="myImg-9">
+                <img src="assets/Geng Landing Mockup +.png" alt="Curious Pages Logo"/>
+            </div>
+            
+            <div class="gallery-cards" id="myImg-10">
+                <img src="assets/Geng gamenight++.png" alt="Curious Pages Logo"/>
+            </div>
+
+            <div class="gallery-cards" id="myImg-11">
+                <img src="assets/Movement Salsa & Bachata Taiwo Adeleye.jpg" alt="Curious Pages Logo"/>
+            </div>
+
+            <div class="gallery-cards" id="myImg-12">
+                <img src="assets/carousel colors.png" alt="Curious Pages Logo"/>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-1" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content" >
+            <div class="modal-img" id="bbTournament"/></div>
+            <div class="modal-content-text">
+            <h3>sport branding</h3>
+            <h2>Hoops Tournament</h2>
+            <hr>
+            <p>Coming into the year, I created a logo and a few digital posters accompanying the launch of the tournament
+                (a dynamic basketball league for Nigerian Universities) to promote
+                audience engagement and brand awareness. Taking on the challenge of representing campus players as NBA stars,
+                I made creative artworks with the players faces on each with a goal to make everyone
+                on campus want to watch every match.
+            </p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+
+            <img src="assets/Hoops Logo 2.png" alt="" class="content-image">
+            <img src="assets/Hoops Jersey+.png" alt="" class="content-image">
+                
+                <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+                    
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-2" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="duMeta"/></div>
+            <div class="modal-content-text">
+            <h3>Flyer design</h3>
+            <h2>Du'Meta Dance Film</h2>
+            <hr>
+            <p>Created for a dance event, this flyer was carefully crafted
+                to showcase elegance in the work of Taiwo Adeleye, CMA where he
+                shares his experience and analysis using Laban Movement
+                Analysis, his suggestions, and used his technique to create a short film.
+            </p>
+            <hr>
+            <h3>Meaning and Inspiration</h3>                     
+            </div>
+
+            <img src="assets/DuMeta Portrait 2.png" alt="" class="content-image">
+            
+            <div class="modal-content-text">
+                <p> Du'Meta in English means <em>3 black men</em>, a Film
+                    about Taiwo Adeleye's experience viewing a portrait
+                    titled <em>Fred Ashton and Dancers</em> displayed at New York's Gunggenheim
+                    Museum.
+                </p> 
+                <hr>
+                <h3>Featured on The New York Age</h3>
+            </div>
+
+            <img src="assets/DuMeta Feature.png" alt="" class="content-image">
+            
+            <div class="modal-content-text">
+                <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+                <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-3" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="curiousp"/></div>
+            <div class="modal-content-text">
+            <h3>product design system</h3>
+            <h2>Curious Pages</h2>
+            <hr>
+            <p>Curious Pages is a tool that enables anyone with a tech background or not to
+             create a website for their businesses with free custom domain names right from their smartphones.
+            </p>
+            <hr>
+            <a href="http://www.curious.page" target="_blank">Learn more ></a>
+            <hr>
+            <h3>minimalism for better ux</h3>
+            </div>
+            <img src="assets/Curious-pages-logo-black.png" alt="" class="content-image">
+            <div class="modal-content-text">
+                <p>I worked with the founder, Emmanuel Adegbite (@olucurious) to build a design system for minimalism
+                    that improves users' focus while building their own website on the go. This is evident in the logo which inherits its colors from the theme in the app.
+                </p>
+                <hr>
+                <h3>my curious page portfolio</h3>
+            </div>
+            
+            <a href="https://richard.curious.page/" target="_blank">
+            <img src="assets/Curious Pages opengraph.png" alt="" class="content-image">
+            </a>
+            <div class="modal-content-text">
+            <p>Tap on the above image to view. <br> <br><em>Although it's still a work in progress but feel free to check it out anytime. </em> <br><br>Take a part in my design process by leaving a feedback in the comment section.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid" id="close">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-4" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="albosa"/></div>
+            <div class="modal-content-text">
+            <h3>logo design</h3>
+            <h2>Alobosa</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-5" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="gengt"/></div>
+            <div class="modal-content-text">
+            <h3>t-shirt design</h3>
+            <h2>Geng</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-6" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="homeslev"/></div>
+            <div class="modal-content-text">
+            <h3>music artwork</h3>
+            <h2>Homecoming Concert</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-7" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="pmba"/></div>
+            <div class="modal-content-text">
+            <h3>promotional design</h3>
+            <h2>TQ Trivia</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-8" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="mstclass"/></div>
+            <div class="modal-content-text">
+            <h3>poster design</h3>
+            <h2>BMC with Akintola Blingz</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-9" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="genglanding"/></div>
+            <div class="modal-content-text">
+            <h3>ui/ux design</h3>
+            <h2>Geng</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-10" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="game9t"/></div>
+            <div class="modal-content-text">
+            <h3>Print and social</h3>
+            <h2>Posters</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-11" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="movedance"/></div>
+            <div class="modal-content-text">
+            <h3>flyer design</h3>
+            <h2>Movement and Dance Workshop</h2>
+            <hr>
+            <p>Richard designs interfaces: the metaphors that humanize them, 
+                and the systems that scale them. His work ranges from 
+                choreographing kinetic type for Klim Type Foundry, to 
+                prototyping operating systems, like MercuryOS.</p>
+            <hr>
+            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">Email me</a>
+            <hr>
+            </div>
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="modal"  id="myModal-12" >
+        <div class="down slideup">
+            <img src="assets/down-icon.svg" alt="">
+        </div>    
+        <div class="modal-content open">
+            <div class="modal-img" id="carouselpost"/></div>
+            <div class="modal-content-text">
+            <h3>Instagram Carousel</h3>
+            <h2>A Quick Guide to Colors in Design</h2>
+            <hr>
+            <p>As a beginner, This post will show you all you need to know about the usage of colors
+                in visual design for effective communication to your audience or customers.
+            </p>
+            <hr>
+            <h3>Inspiration</h3>
+            </div>
+            <img src="assets/Home-movie.jpg" alt="" class="content-image">
+            <img src="assets/Carousel Portfolio.png" alt="" class="content-image">
+            
+            <div class="modal-content-text">
+            <p>Illustrations used in this post were inspired by the DreamWorks' popular movie, “Home”. The accurate use of
+                color transitions to communicate feelings in the movie was the muse, so I decided to use cut-out versions of
+                the characters to explain the topic with visual continuity in mind.</p>
+                <hr>
+                <h3>Features</h3>
+            </div>
+            
+            <img src="assets/Carousel featured.png" alt="" class="content-image">
+
+            <div class="modal-content-text">
+                <p>Its performance went up on Instagram through features by influencer accounts.</p>
+                <hr>
+                <a href="https://www.instagram.com/p/CAFN03NjEY4/?utm_source=ig_web_copy_link">View Post</a>
+                <hr>
+                <p>
+                    For the fact that many tried to pick up skills during the lockdown, 
+                    in which graphic design was among the top 3 on everyone's list, this got me investing into creating a couple more carousel posts
+                    really targeted at boosting the confidence of these early designers. <br> <br> Other posts created are <em>"Check Out This Kettle Design"</em> and <em>"3 
+                        Terms Most Designers Get Wrong".</em>
+                </p>
+                <hr>
+                <a href="https://www.instagram.com/richard_tiwa/">Follow me</a>
+            <hr>
+            
+            </div>
+        
+            <!-- <a href="#"> -->
+                <div class="backToGrid">Back</div>
+            <!-- </a> -->
+           
+        </div>
+    </div>
+
+    <div class="footerContainer"">
+        <hr>
+        <div class="footerGrid">
+            <div class="footerGridSmall credits"></div>
+            <div>
+                <p>Copyright © 2021 Richard Tiwa.</p>
+                <p>All rights reserved.</p>
+            </div>
+
+            <div>
+                <div class="footerGridSmall">
+                    <div>
+                        <div class="mobileHr"></div>
+                        <p>
+                            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">
+                                <span id="email">Email</span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://twitter.com/richard_tiwa">
+                                <span id="twitter">Twitter</span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="http://www.instagram.com/richard_tiwa">
+                                <span id="instagram">Instagram</span>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="mobileHr"></div>
+                        <p>
+                            <a href="mailto:richardadaramola@gmail.com?subject=Hey Richie!">
+                                <span id="email">Medium</span>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://twitter.com/richard_tiwa">
+                                <span id="twitter">Dribbble</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script>
+        // First Modal
+        var modal = document.getElementById("myModal-1");
+        var prv = document.getElementById("myImg-1");
+        var clps = document.getElementsByClassName("backToGrid")[0];
+        var clpsa = document.getElementsByClassName("down")[0];
+
+        prv.onclick = function(){
+            modal.style.display = "block";
+        }
+
+        clps.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        clpsa.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event){
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        // Second Modal
+        var modal2 = document.getElementById("myModal-2");
+        var prv2 = document.getElementById("myImg-2");
+        var clps2 = document.getElementsByClassName("backToGrid")[1];
+        var clpsb = document.getElementsByClassName("down")[1];
+
+        prv2.onclick = function(){
+            modal2.style.display = "block";
+        }
+
+        clps2.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        clpsb.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        // Third Modal
+        var modal3 = document.getElementById("myModal-3");
+        var prv3 = document.getElementById("myImg-3");
+        var clps3 = document.getElementsByClassName("backToGrid")[2];
+        var clpsc = document.getElementsByClassName("down")[2];
+
+        prv3.onclick = function(){
+            modal3.style.display = "block";
+        }
+
+        clps3.onclick = function () {
+            modal3.style.display = "none";
+        }
+
+        clpsc.onclick = function () {
+            modal3.style.display = "none";
+        }
+
+
+        // Fouth Modal
+        var modal4 = document.getElementById("myModal-4");
+        var prv4 = document.getElementById("alobosa");
+        var clps4 = document.getElementsByClassName("backToGrid")[3];
+        var clpsd = document.getElementsByClassName("down")[3];
+
+        prv4.onclick = function(){
+            modal4.style.display = "block";
+        }
+
+        clps4.onclick = function () {
+            modal4.style.display = "none";
+        }
+
+        clpsd.onclick = function () {
+            modal4.style.display = "none";
+        }
+
+        // Fifth Modal
+        var modal5 = document.getElementById("myModal-5");
+        var prv5 = document.getElementById("myImg-5");
+        var clps5 = document.getElementsByClassName("backToGrid")[4];
+        var clpse = document.getElementsByClassName("down")[4];
+
+        prv5.onclick = function(){
+            modal5.style.display = "block";
+        }
+
+        clps5.onclick = function () {
+            modal5.style.display = "none";
+        }
+        
+        clpse.onclick = function () {
+            modal5.style.display = "none";
+        }
+
+        // Sixth Modal
+        var modal6 = document.getElementById("myModal-6");
+        var prv6 = document.getElementById("cd-sleeve");
+        var clps6 = document.getElementsByClassName("backToGrid")[5];
+        var clpsf = document.getElementsByClassName("down")[5];
+
+
+        prv6.onclick = function(){
+            modal6.style.display = "block";
+        }
+
+        clps6.onclick = function () {
+            modal6.style.display = "none";
+        }
+
+        clpsf.onclick = function () {
+            modal6.style.display = "none";
+        }
+
+        // Seventh Modal
+        var modal7 = document.getElementById("myModal-7");
+        var prv7 = document.getElementById("pumbaa");
+        var clps7 = document.getElementsByClassName("backToGrid")[6];
+        var clpsg = document.getElementsByClassName("down")[6];
+
+        prv7.onclick = function(){
+            modal7.style.display = "block";
+        }
+
+        clps7.onclick = function () {
+            modal7.style.display = "none";
+        }
+
+        clpsg.onclick = function () {
+            modal7.style.display = "none";
+        }
+
+        // Eighth Modal
+        var modal8 = document.getElementById("myModal-8");
+        var prv8 = document.getElementById("cd-sleeve2");
+        var clps8 = document.getElementsByClassName("backToGrid")[7];
+        var clpsh = document.getElementsByClassName("down")[7];
+
+        prv8.onclick = function(){
+            modal8.style.display = "block";
+        }
+
+        clps8.onclick = function () {
+            modal8.style.display = "none";
+        }
+
+        clpsh.onclick = function () {
+            modal8.style.display = "none";
+        }
+
+        // Ninth Modal
+        var modal9 = document.getElementById("myModal-9");
+        var prv9 = document.getElementById("myImg-9");
+        var clps9 = document.getElementsByClassName("backToGrid")[8];
+        var clpsi = document.getElementsByClassName("down")[8];
+
+        prv9.onclick = function(){
+            modal9.style.display = "block";
+        }
+
+        clps9.onclick = function () {
+            modal9.style.display = "none";
+        }
+
+        clpsi.onclick = function () {
+            modal9.style.display = "none";
+        }
+
+
+        // Tenth Modal
+        var modal10 = document.getElementById("myModal-10");
+        var prv10 = document.getElementById("myImg-10");
+        var clps10 = document.getElementsByClassName("backToGrid")[9];
+        var clpsj = document.getElementsByClassName("down")[9];
+
+        prv10.onclick = function(){
+            modal10.style.display = "block";
+        }
+
+        clps10.onclick = function () {
+            modal10.style.display = "none";
+        }
+
+        clpsj.onclick = function () {
+            modal10.style.display = "none";
+        }
+
+        // Eleventh Modal
+        var modal11 = document.getElementById("myModal-11");
+        var prv11 = document.getElementById("myImg-11");
+        var clps11 = document.getElementsByClassName("backToGrid")[10];
+        var clpsk = document.getElementsByClassName("down")[10];
+
+        prv11.onclick = function(){
+            modal11.style.display = "block";
+        }
+
+        clps11.onclick = function () {
+            modal11.style.display = "none";
+        }
+
+        clpsk.onclick = function () {
+            modal11.style.display = "none";
+        }
+
+        // Twelfth Modal
+        var modal12 = document.getElementById("myModal-12");
+        var prv12 = document.getElementById("myImg-12");
+        var clps12 = document.getElementsByClassName("backToGrid")[11];
+        var clpsl = document.getElementsByClassName("down")[11];
+
+        prv12.onclick = function(){
+            modal12.style.display = "block";
+        }
+
+        clps12.onclick = function () {
+            modal12.style.display = "none";
+        }
+
+        clpsl.onclick = function () {
+            modal12.style.display = "none";
+        }
+
+
+
+        
+
+
+
+    </script>
+  </body>
